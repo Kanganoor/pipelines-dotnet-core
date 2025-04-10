@@ -12,7 +12,7 @@ stages:
     displayName: 'Build Job'
     steps:
     - script: |
-        echo "Restoring project dependencies..."
+        echo "Restoring project dependencies...with email"
       displayName: 'Restore dependencies'
     - script: |
         echo "Running unit tests..."
